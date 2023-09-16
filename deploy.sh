@@ -1,7 +1,7 @@
 #!/bin/bash
 
 git checkout deploy
-git merge master
+git merge main
 
 # build the static version of the website
 ./build.sh
@@ -9,4 +9,4 @@ git merge master
 git add .
 git commit -m "Deploy: $(ruby -e 'puts Time.now')"
 git push
-git checkout master
+git checkout main
