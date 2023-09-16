@@ -4,6 +4,7 @@ git checkout deploy
 git merge main
 
 # build the static version of the website
+chmod u+r+x build.sh
 ./build.sh
 
 git add .
