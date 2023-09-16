@@ -48,7 +48,7 @@ jobs:
         run: |
           echo "Installing package.json dependencies..."
           pwd
-          cd .root
+          cd .git
           npm install
           cd ..
 
