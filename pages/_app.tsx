@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import type { AppProps } from "next/app";
 import "./global.css";
+import Image from 'next/image';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
