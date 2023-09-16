@@ -57,5 +57,5 @@ jobs:
         run: |
           echo "Starting Deploy..."
           git config --global user.email "tonyzebaztian@yahoo.com"
-          git config --global user.name "tonyzebaztian"
+          git config --global user.name "tonyzebastian"
           ./deploy.sh
