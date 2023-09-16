@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <main class="macbook-air-2">
+      <main class="main-div">
+        <section class="left-content">
+          <img class="logo-icon" alt="" src="./public/logo.svg" />
+
+          <div class="main-content">
+            <div class="heading">
+              <h1 class="heading1">Hello!</h1>
+            </div>
+            <div class="description">
+              <p class="description1">
+                I'm Tony Sebastian, a product designer based in Bangalore,
+                India. I've always been drawn to things that are not just
+                beautiful but also engaging and useful. My current focus is to
+                create interactive experiences at the intersection of art and
+                design.
+              </p>
+            </div>
+          </div>
+          <div class="contact-details">
+            <div class="sub-text-div">
+              <p class="sub-description">Want to solve a problem together?</p>
+            </div>
+            <div class="social-links">
+              <a class="brands-dribbble" id="brandsDribbble">
+                <img class="vector-icon" alt="" src="./public/vector.svg" />
+              </a>
+              <a class="brands-figma" id="brandsFigma">
+                <img class="vector-icon1" alt="" src="./public/vector1.svg" />
+              </a>
+              <a class="brands-dribbble" id="brandsLinkedin">
+                <img class="vector-icon2" alt="" src="./public/vector2.svg" />
+              </a>
+              <a class="brands-dribbble" id="brandsTwitter">
+                <img class="vector-icon3" alt="" src="./public/vector3.svg" />
+              </a>
+              <a class="brands-dribbble" id="brandsDribbble1">
+                <img class="vector-icon" alt="" src="./public/vector.svg" />
+              </a>
+            </div>
+          </div>
+        </section>
+        <section class="right-illustration">
+          <img
+            class="illustration-1-icon"
+            alt=""
+            src="./public/illustration-1.svg"
+          />
+        </section>
+      </main>
+    </main>
+
+    <script>
+      var brandsDribbble = document.getElementById("brandsDribbble");
+      if (brandsDribbble) {
+        brandsDribbble.addEventListener("click", function () {
+          window.open("https://dribbble.com/tonyzebastian");
+        });
+      }
+      
+      var brandsFigma = document.getElementById("brandsFigma");
+      if (brandsFigma) {
+        brandsFigma.addEventListener("click", function () {
+          window.open("https://www.figma.com/@tonyzebastian");
+        });
+      }
+      
+      var brandsLinkedin = document.getElementById("brandsLinkedin");
+      if (brandsLinkedin) {
+        brandsLinkedin.addEventListener("click", function () {
+          window.open("https://www.linkedin.com/in/tonyzebastian/");
+        });
+      }
+      
+      var brandsTwitter = document.getElementById("brandsTwitter");
+      if (brandsTwitter) {
+        brandsTwitter.addEventListener("click", function () {
+          window.open("https://twitter.com/tonyzebastian");
+        });
+      }
+      
+      const brandsDribbble1 = document.getElementById("brandsDribbble1");
+      if (brandsDribbble1) {
+        brandsDribbble1.addEventListener("click", function () {
+          window.location.href = "mailto:tonyzebastian?subject=Hello there!";
+        });
+      }
+      </script>
+  </body>
+</html>
